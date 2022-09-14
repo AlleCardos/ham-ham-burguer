@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 23</title>
+</head>
+<body>
+
+    <form name="carte">
+        <ul>
+            <li class="mark">
+                <span class="food-title">Sanduíches</span>
+                <span class="price-title">Valor</span>
+                <span class="qtde-title">Quantidade</span>
+            </li>
+            <li>
+                <span class="food">Pão com Ovo</span>
+                <span class="price">R$ 17,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li class="mark">
+                <span class="food">Hamburguer</span>
+                <span class="price">R$ 20,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li>
+                <span class="food">Misto</span>
+                <span class="price">R$ 10,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li class="mark">
+                <span class="food">X-Bacon</span>
+                <span class="price">R$ 22,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li>
+                <span class="food">X-Salada</span>
+                <span class="price">R$ 23,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li class="mark">
+                <span class="food">X-Frango</span>
+                <span class="price">R$ 29,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li>
+                <span class="food">Americano</span>
+                <span class="price">R$ 18,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li class="mark">
+                <span class="food">X-Burguer</span>
+                <span class="price">R$ 21,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+
+            <li><span class="drink-title">Bebidas</span></li>
+            
+            <li class="mark">
+                <span class="drink">COCA-COLA</span>
+                <span class="price">R$ 12,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li>
+                <span class="drink">Fanta</span>
+                <span class="price">R$ 10,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+            <li class="mark">
+                <span class="drink">Suco Natural</span>
+                <span class="price">R$ 5,00</span>
+                <span class="container-input"><input class="qtde-input" type="text" name="number"></span>
+            </li>
+        </ul>
+
+        <div class="container">
+            <div>
+                <label>Taxa de entrega:</label>
+                <input class="qtde-input" type="text" name="taxa">
+            </div>
+            <div>
+                <label>Desconto:</label>
+                <input class="qtde-input" type="text" name="descount">
+            </div>
+            <div class="container-result">
+                <input id="btn" type="button" value="Valor a Pagar">
+                <p id="resultPrice">R$0,00</p>
+            </div>
+        </div>
+    </form>
+
+    <div class="bg-logo">
+        <h2>Ham-Ham-Burguer</h2>
+        <img class="mini-ham" src="./imgs/mini-ham-new.png" alt="">
+        <p>Felicidade a cada mordida!!</p>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

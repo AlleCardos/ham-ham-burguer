@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 1px;
+    background: url(./imgs/bg.webp);
+    background-size: cover;
+}
+
+form{
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 3px #000;
+    background-color: #ffffff;
+}
+
+.food-title,.price-title,.qtde-title,.drink-title{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 2px 0px;
+    font-weight: 700;
+}
+
+.food,.food-title,.drink,.drink-title,.qtde-title{
+    display: inline-block;
+    width: 200px;
+    padding: 3px 5px;
+}
+
+.price,.price-title{
+    display: inline-block;
+    width: 100px;
+    padding: 3px 5px;
+}
+
+.qtde-title{
+    display: inline-block;
+    padding: 3px 5px;   
+}
+
+.container-input{
+    display: inline-flex;
+    width: 200px;
+    padding: 3px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.qtde-input{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+.mark{
+    background: linear-gradient(to right, #D86414, #EA4D23);
+    border-radius: 10px;
+}
+
+.container div{
+    margin: 10px 0px;
+}
+
+.container label{
+    text-align: right;
+    font-weight: 700;
+    display: inline-block;
+    width: 200px;
+}
+
+.container-result{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px !important;
+    justify-content: center;
+    border-top: #000 solid 2px;
+}
+
+#btn{
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: none;
+    background: linear-gradient(to right, #D86414, #EA4D23);
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 30px;
+}
+
+#resultPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.mini-ham{
+    height: 100vh;
+    border-left: #fff 5px solid;
+    border-right: #fff 5px solid;
+}
+
+.bg-logo{
+    display: flex;
+    align-items: center;
+    float: right;
+    position: relative;
+}
+
+.bg-logo h2{
+    width: 90%;
+    height: 70px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    transform: translate(-55%,-10%);
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: 4px 3px 1px #EA4D23;
+}
+
+.bg-logo p{
+    width: 90%;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 55%;
+    bottom: 5%;
+    transform: translate(-55%,-5%);
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: 4px 3px 1px #EA4D23;
+}
+
+.bg-logo p,.bg-logo h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
